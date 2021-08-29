@@ -22,7 +22,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style>
 :root {
   --mainColor: rgb(20, 34, 43);
   --containersBackground: white;
@@ -50,9 +50,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50; 
 }
-
 
 #nav { 
   position: relative; 
@@ -61,17 +59,7 @@ export default {
   justify-content: space-between;
   flex-wrap: nowrap;
   align-items: center;
-
   background: var(--mainColor);
-
-  a {
-    font-weight: bold;
-    color: var(--containersBackground);
-
-    &.router-link-exact-active {
-      color: var(--darkerContrastColor);
-    }
-  }
 }
   
 .navLogo {
